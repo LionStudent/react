@@ -4,7 +4,7 @@ function Zapp(){
     return (
         <div>
             <h1>Family</h1>
-            <p>This is Kwesi's family:</p>
+            <p>This is the family of Kwesi Davis:</p>
             <ul>
                 <li>Thema</li>
                 <li>Ife</li>

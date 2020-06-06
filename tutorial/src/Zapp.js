@@ -1,15 +1,17 @@
 import React from "react"
 
+import Navbar from "./custom_components/Navbar"
+import MainContent from "./custom_components/MainContent"
+import Footer from "./custom_components/Footer"
+import CovidForm from "./custom_components/CovidForm"
+
 function Zapp(){
     return (
         <div>
-            <h1>Family</h1>
-            <p>This is the family of Kwesi Davis:</p>
-            <ul>
-                <li>Thema</li>
-                <li>Ife</li>
-                <li>Ayo</li>
-            </ul>
+        <CovidForm />
+            <Navbar/>
+            <MainContent/>
+            <Footer/>
         </div>
     )
 }
